@@ -8,7 +8,7 @@
         ],
         "components": [
           {
-            "/": "in/merchantapp/*",
+            "/": "*",
             "?": {
               "$web_only": "true",
               "%24web_only": "true"
@@ -28,7 +28,7 @@
         ],
         "components": [
           {
-            "/": "/in/*",
+            "/": "*",
             "?": {
               "$web_only": "true",
               "%24web_only": "true"
