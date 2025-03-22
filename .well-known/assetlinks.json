@@ -1,1 +1,23 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.shoppingapp",
+      "sha256_cert_fingerprints": [
+        "93:E5:C6:F2:6D:CC:51:63:0A:43:67:8C:87:24:86:84:ED:E4:23:64:AA:8C:66:41:03:92:90:F5:3A:E3:D3:C6"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.merchantapp",
+      "sha256_cert_fingerprints": [
+        "93:E5:C6:F2:6D:CC:51:63:0A:43:67:8C:87:24:86:84:ED:E4:23:64:AA:8C:66:41:03:92:90:F5:3A:E3:D3:C6"
+      ]
+    }
+  }
+]
 
