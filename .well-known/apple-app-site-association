@@ -14,10 +14,6 @@
             },
             "exclude": true,
             "comment": "Exclude only if web_only=true"
-          },
-          {
-            "/": "in/merchantapp/*",
-            "comment": "Open app for in/merchantapp/*"
           }
         ]
       },
@@ -37,10 +33,6 @@
           {
             "/": "in/shoppingapp/*",
             "comment": "Open app for in/shoppingapp/*"
-          },
-          {
-            "/": "/in/*",
-            "comment": "Open app for /in/*"
           }
         ]
       }
