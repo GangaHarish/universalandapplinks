@@ -9,16 +9,16 @@
         "components": [
           {
             "/": "in/merchantapp/*",
-            "comment": "Open app for in/merchantapp/*"
-          },
-          {
-            "/": "in/merchantapp/*",
             "?": {
               "$web_only": "true",
               "%24web_only": "true"
             },
             "exclude": true,
             "comment": "Exclude only if web_only=true"
+          },
+          {
+            "/": "in/merchantapp/*",
+            "comment": "Open app for in/merchantapp/*"
           }
         ]
       },
@@ -28,14 +28,6 @@
         ],
         "components": [
           {
-            "/": "in/shoppingapp/*",
-            "comment": "Open app for in/shoppingapp/*"
-          },
-          {
-            "/": "/in/*",
-            "comment": "Open app for /in/*"
-          },
-          {
             "/": "/in/*",
             "?": {
               "$web_only": "true",
@@ -43,6 +35,14 @@
             },
             "exclude": true,
             "comment": "Exclude only if web_only=true"
+          },
+          {
+            "/": "in/shoppingapp/*",
+            "comment": "Open app for in/shoppingapp/*"
+          },
+          {
+            "/": "/in/*",
+            "comment": "Open app for /in/*"
           }
         ]
       }
