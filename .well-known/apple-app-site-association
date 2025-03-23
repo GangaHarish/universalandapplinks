@@ -8,28 +8,9 @@
         ],
         "components": [
           {
-            "/": "in/merchantapp/gifts/*",
+            "/": "in/merchantapp/*",
             "exclude": true,
             "comment": "Exclude only if web_only=true"
-          }
-        ]
-      },
-      {
-        "appIDs": [
-          "9434T587C9.com.test.ShoppingApp"
-        ],
-        "components": [
-          {
-            "/": "in/*",
-            "?": {
-              "$web_only": "true"
-            },
-            "exclude": true,
-            "comment": "Exclude only if web_only=true"
-          },
-          {
-            "/": "in/shoppingapp/*",
-            "comment": "Open app for in/shoppingapp/*"
           }
         ]
       }
