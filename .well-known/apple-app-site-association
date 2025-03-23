@@ -8,10 +8,6 @@
         ],
         "components": [
           {
-            "/": "in/merchantapp/*",
-            "comment": "Open In app"
-          },
-          {
             "/": "in/merchantapp/gifts/*",
             "exclude": true,
             "comment": "Exclude only if web_only=true"
