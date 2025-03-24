@@ -10,6 +10,26 @@
           "NOT /in/merchantapp/gifts/*",
           "/in/merchantapp/*"
         ]
+      },
+      {
+        "appIDs": [
+          "9434T587C9.com.test.ShoppingApp"
+        ],
+        "components": [
+          {
+            "/": "/in/shoppingapp/gifts*",
+            "exclude": true,
+            "comment": "Open app for /us/vs/*"
+          },
+          {
+            "/": "/in/*",
+            "comment": "Open app for /us/*"
+          }
+        ],
+        "paths": [
+          "NOT /in/shoppingapp/gifts/*",
+          "/in/shoppingapp/*"
+        ]
       }
     ]
   }
