@@ -6,16 +6,9 @@
         "appIDs": [
           "9434T587C9.com.test.MerchantApp"
         ],
-        "components": [
-          {
-            "/": "in/merchantapp/gifts/*",
-            "exclude": true,
-            "comment": "Exclude only if web_only=true"
-          },
-          {
-            "/": "in/merchantapp/*",
-            "comment": "Open in App"
-          }
+        "paths": [
+          "NOT /in/merchantapp/bras/*",
+          "/in/merchantapp/*"
         ]
       }
     ]
