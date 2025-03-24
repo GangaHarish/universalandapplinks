@@ -6,8 +6,19 @@
         "appIDs": [
           "9434T587C9.com.test.MerchantApp"
         ],
+        "components": [
+          {
+            "/": "/in/merchantapp/gifts/*",
+            "exclude": true,
+            "comment": "not_included exluded"
+          },
+          {
+            "/": "/in/merchantapp/*",
+            "comment": "Customer sub pages included"
+          }
+        ],
         "paths": [
-          "NOT /in/merchantapp/bras/*",
+          "NOT /in/merchantapp/gifts/*",
           "/in/merchantapp/*"
         ]
       }
