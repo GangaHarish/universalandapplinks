@@ -19,7 +19,14 @@
           {
             "/": "/in/shoppingapp/shirts/*",
             "?": {
-              "$web_only": "true",
+              "$web_only": "true"
+            },
+            "exclude": true,
+            "comment": "Open app for /us/vs/*"
+          },
+          {
+            "/": "/in/shoppingapp/shirts/*",
+            "?": {
               "%24web_only": "true"
             },
             "exclude": true,
