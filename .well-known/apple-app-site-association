@@ -33,6 +33,11 @@
             "comment": "Open app for /us/vs/*"
           },
           {
+            "/": "/in/shoppingapp/bras/*",
+            "exclude": true,
+            "comment": "Open app for /us/vs/*"
+          },
+          {
             "/": "/in/*",
             "comment": "Open app for /us/*"
           }
