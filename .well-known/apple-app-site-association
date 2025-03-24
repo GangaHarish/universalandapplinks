@@ -17,7 +17,7 @@
         ],
         "components": [
           {
-            "/": "/in/shoppingapp/gifts*",
+            "/": "/in/shoppingapp/bras*",
             "exclude": true,
             "comment": "Open app for /us/vs/*"
           },
@@ -25,10 +25,6 @@
             "/": "/in/*",
             "comment": "Open app for /us/*"
           }
-        ],
-        "paths": [
-          "NOT /in/shoppingapp/gifts/*",
-          "/in/shoppingapp/*"
         ]
       }
     ]
